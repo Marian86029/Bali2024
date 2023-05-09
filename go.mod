@@ -1,4 +1,4 @@
-module github.com/Marian86029
+module github.com/Marian86029/Bali2024
 
 go 1.20
 
@@ -18,4 +18,6 @@ require (
 	golang.org/x/crypto v0.8.0 // indirect
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
 	golang.org/x/text v0.9.0 // indirect
+    
+
 )

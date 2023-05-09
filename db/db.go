@@ -1,4 +1,4 @@
-package bd
+package db
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 
 var MongoCN = ConnectDB()
 
-var clientOptions = options.Client().ApplyURI("mongodb+srv://marianoromera186:Bali2024>@myfirstproject.w1hlyqg.mongodb.net/?retryWrites=true&w=majority")
+var clientOptions = options.Client().ApplyURI("mongodb+srv://Marian86029:Dublin2023@cluster0.mc0aver.mongodb.net/")
 
 func ConnectDB() *mongo.Client {
 	client, err := mongo.Connect(context.TODO(), clientOptions)
